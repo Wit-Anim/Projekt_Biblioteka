@@ -1,2 +1,4 @@
-Projekt tworzony przez 2 osoby w ramach zaliczenia na studiach.
+Projekt w pełni funkcjonalnej Biblioteki online tworzony przez 2 osoby w ramach zaliczenia na studiach.
 Strona główna projektu znajduje się w pliku "index.php".
+Plik do importu bazy danych: "biblioteka.sql".
+Hasło, login oraz nazwę bazy danych należy umieścić w pliku "init.php". 
