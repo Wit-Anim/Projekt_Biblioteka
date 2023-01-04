@@ -1,0 +1,21 @@
+
+Table: bibliotekarze.
+Id bibliotekarza: 1 | Czy Admin: 1 |  Imie: Klaudia | Nazwisko: Gwania | Adres: Pierniczkowa 2/3 Kraków | Telefon: 654258945
+
+Table: klienci.
+Id klienta: 1 | Imie: Klaudia | Nazwisko: Wania | Adres: Pierniczkowa 3/69 Kraków | Telefon: 696969697
+Id klienta: 2 | Imie: Ronald | Nazwisko: Brzenczyszczykiewicz | Adres: Maślana 2/4 Poznań | Telefon: 123123123
+Id klienta: 3 | Imie: Andrzej | Nazwisko: Kowalski | Adres: Kowalska 12 Kowal | Telefon: 123321555
+
+Table: ksiazki.
+Id ksiazki: 1 | Tytul: Hobbit | Autor: Tolkien | Ilosc: 20 | Ilosc Wypozyczonych: 2 | Zdjecie: hobbit.jpg
+Id ksiazki: 2 | Tytul: Harry Potter i komnata tajemnic | Autor: J.K Rowling | Ilosc: 10 | Ilosc Wypozyczonych: 0 | Zdjecie: harry_potter_komnata.jpg
+Id ksiazki: 3 | Tytul: Inny świat | Autor: G. Herling-Grudziński | Ilosc: 8 | Ilosc Wypozyczonych: 0 | Zdjecie: innySwiat.jpg
+
+Table: logowania.
+Id wpisu: 1 | Id biblio: 1 | Login: Klaudia2323 | Haslo: test8
+
+Table: logowania_admin.
+Id wpisu: 1 | Id biblio: 1 | Login: Klaudmin | Haslo: okon12
+
+Table: wypozyczenia.

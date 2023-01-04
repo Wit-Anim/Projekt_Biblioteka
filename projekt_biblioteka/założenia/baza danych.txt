@@ -1,0 +1,37 @@
+Nazwa bazy danych: biblioteka
+
+tabele:
+
+1. Ksi¹¿ki:
+- id_ksi¹¿ki (int 8)
+- tytu³ (varchar 255)
+- autor (varchar 255)
+- iloœæ (int 8)
+- iloœæ_wypo¿yczonych (int 8)
+- zdjêcie (varchar 64)
+
+2. Klienci:
+- id_klienta (int 8)
+- imiê (varchar 255)
+- nazwisko (varchar 255)
+- adres (varchar 255)
+- telefon (int 48)
+
+3. Wypo¿yczenia
+- id_wypo¿yczenia (int 8)
+- id_klienta (int 8)
+- id_ksi¹¿ki (int 8)
+
+4. Bibliotekarze:
+- id_bibliotekarza (int 8)
+- czy_administrator (int 1)
+- imiê (varchar 255)
+- nazwisko (varchar 255)
+- adres (varchar 255)
+- telefon (int 48)
+
+5. Logowania: (system tylko bibliotekarz)
+- id_wpisu (int 8)
+- id_bibliotekarza (int 8)
+- login (varchar 255) (szyfrowane)
+- has³o (varchar 255) (szyfrowane) 

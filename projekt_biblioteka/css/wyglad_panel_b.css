@@ -1,0 +1,85 @@
+body{		
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url(images/panel_b_background.jpg);
+}
+
+.b1{
+	margin:0;
+	position:absolute;
+	top:40%;
+	left:30%;
+	transform:translate(-50%, -50%);
+}
+
+.b2{
+	margin:0;
+	position:absolute;
+	top:40%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+
+.b3{
+	margin:0;
+	position:absolute;
+	top:40%;
+	left:69%;
+	transform:translate(-50%, -50%);
+}
+
+.logadmin{
+	margin:0;
+	position:absolute;
+	top:55%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+
+.logout{
+	margin:0;
+	position:absolute;
+	top:90%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+
+.button{
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	text-shadow: 0 -1px 1px #FFE87C;
+	user-select: none;
+	padding: .8em 1em;
+	outline: none;
+	border-radius: 1px;
+	background: linear-gradient(to left, rgba(0,0,0,.3), rgba(0,0,0,.0) 50%, rgba(0,0,0,.3)), linear-gradient(#FFDF00, #FFE87C, #FFDF00);
+	background-size: 100% 100%, auto;
+	background-position: 50% 50%;
+	box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, #000 0 10px 15px -10px;
+	transition: 0.2s;
+}
+.button:hover{
+	background-size: 140% 100%, auto;
+	color: none;
+}
+.button:active{
+	top: 1px;
+	color: #FFA62F;
+	box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, 0 10px 10px -9px #000;
+}
+
+.tresc{
+	opacity:1;
+	background-color:rgba(200,173,127,0.7);
+	text-shadow:silver 4px 4px 8px;
+	border: none;
+    border-radius: 3rem;
+    padding: 2%;
+    width: 20%;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 15%;
+	margin-left: 37%;
+}
